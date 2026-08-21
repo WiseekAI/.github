@@ -19,6 +19,22 @@ From the launch window (Jul 24 to Aug 14, 2026; 11,416 measured filings): filing
 Wiseek scored 9 or 10 moved a median 4.99% (excess of the market) by the next
 close. Filings scored 1 to 4 moved 2.14%. The gap held in every market-cap band.
 
+## What the Wiseek score is
+
+Every filing that hits SEC EDGAR runs through Wiseek's scoring models within
+seconds of publication. The importance score (1 to 10) is calibrated on filing
+type, transaction size, insider participation, and how similar disclosures have
+historically moved prices. Scores of 7 and up cross Wiseek's publication
+threshold and appear on the site. The sentiment label (positive, negative,
+neutral) comes from a classifier tuned on corporate-disclosure language, built
+to tell a beat-and-raise 8-K from a going-concern 8-K even when both are
+written in the same flat legalese.
+
+Scores are assigned when the filing is processed and never revised after the
+market reacts. That is what makes this dataset a fair test of the models: the
+score always came first, the price move second. Full pipeline:
+https://wiseek.ai/methodology/
+
 ## More from Wiseek
 
 - Product homepage: https://wiseek.ai/
