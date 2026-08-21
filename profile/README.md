@@ -1,30 +1,29 @@
 # Wiseek
 
-**AI-powered SEC filing intelligence.** Wiseek scores every SEC filing for market
-importance (1–10) and sentiment in real time, across ~6,800 US tickers —
+Wiseek scores every SEC filing for market importance (1 to 10) and sentiment in
+real time, across about 6,800 US tickers. The product lives at
 [wiseek.ai](https://wiseek.ai).
 
 ## Open data
 
-We publish free, citable datasets measuring **how SEC filings actually move stocks**:
+We publish free, citable datasets measuring how SEC filings move stocks:
 
-- 📊 [**wiseek-datasets**](https://github.com/WiseekAI/wiseek-datasets) — the Filing
-  Impact Monthly series: importance score & sentiment vs next-session excess price
+- [wiseek-datasets](https://github.com/WiseekAI/wiseek-datasets): the Filing Impact
+  Monthly series. Importance score and sentiment vs next-session excess price
   moves, plus a per-event archive. CC BY 4.0.
-- 📈 [Live Filing Impact Tracker](https://wiseek.ai/research/filing-impact-index/) —
+- [Live Filing Impact Tracker](https://wiseek.ai/research/filing-impact-index/):
   rolling 90-day event-level data, updated continuously.
-- 🗂️ [All datasets & methodology](https://wiseek.ai/datasets/)
+- [All datasets and methodology](https://wiseek.ai/datasets/)
 
-**First finding** (Jul 24 – Aug 14, 2026, 11,416 measured filings): filings Wiseek
-scored 9–10 moved a median **4.99%** (excess of the market) by the next close, vs
-**2.14%** for scores 1–4 — consistent across every market-cap band.
+From the launch window (Jul 24 to Aug 14, 2026; 11,416 measured filings): filings
+Wiseek scored 9 or 10 moved a median 4.99% (excess of the market) by the next
+close. Filings scored 1 to 4 moved 2.14%. The gap held in every market-cap band.
+
+## More from Wiseek
+
+- Plans and pricing: https://wiseek.ai/pricing/
+- Scored market news: https://wiseek.ai/news/
+- Ticker pages: https://wiseek.ai/ticker/
+- Plain-English filing explainers: https://wiseek.ai/filings/
 
 Questions or corrections: [wiseek.ai/contact](https://wiseek.ai/contact/)
-
-## Explore Wiseek
-
-- **Homepage:** https://wiseek.ai/ — real-time AI scoring of every SEC filing
-- **Live dashboard & plans:** https://wiseek.ai/pricing/
-- **Market news hub** (importance-scored, sentiment-labeled): https://wiseek.ai/news/
-- **All ~6,800 covered tickers:** https://wiseek.ai/ticker/
-- **SEC filings, explained in plain English:** https://wiseek.ai/filings/
